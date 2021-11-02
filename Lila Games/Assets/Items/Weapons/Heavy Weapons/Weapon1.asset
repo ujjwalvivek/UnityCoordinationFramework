@@ -16,24 +16,24 @@ MonoBehaviour:
   allowButtonHold: 0
   damage: 100
   timeBetweenShooting: 1
-  spread: 3
+  spread: 0.2
   range: 0
   reloadTime: 1.5
   timeBetweenShots: 0
   magazineSize: 1
-  numberOfMags: 2
-  totalAmmoCount: 1
+  numberOfMags: 15
+  totalAmmoCount: 13
   bulletsPerTap: 1
-  bulletsLeft: 1
+  bulletsLeft: 0
   bulletsShot: 1
   bulletImpact: {fileID: 3397864867803990050, guid: d040bd5bee676384584512766c50acc3, type: 3}
   muzzleFlash: {fileID: 2347784888554678354, guid: c668cbbc9212c5648a75a5bd33c87d20, type: 3}
   camShakeMagnitude: 0.5
-  camShakeDuration: 0.5
+  camShakeDuration: 0.1
   shootForce: 200
   upwardForce: 0
   bulletPrefab: {fileID: 4214962557053307647, guid: a9a1a637b4bae974c8116c3e3cd1f8ce, type: 3}
   reloadingIdentifier: {fileID: 2641752968622524993, guid: fa2321cab60de0f4196c8b66f2173174, type: 3}
   shooting: 0
-  readyToShoot: 1
+  readyToShoot: 0
   reloading: 0

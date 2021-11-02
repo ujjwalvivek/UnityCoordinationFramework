@@ -5,6 +5,12 @@ using UnityEngine.SceneManagement;
 
 public class SwitchScene : MonoBehaviour
 {
+    public void Awake()
+    {
+        Cursor.visible = true;
+        Cursor.lockState = CursorLockMode.None;
+    }
+
     public void SceneSelect(int buildIndex)
     {
         SceneManager.LoadSceneAsync(buildIndex, LoadSceneMode.Single);

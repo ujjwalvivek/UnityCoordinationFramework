@@ -14,22 +14,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   weaponName: Primary Mk. II
   allowButtonHold: 1
-  damage: 35
-  timeBetweenShooting: 0.05
+  damage: 10
+  timeBetweenShooting: 0.1
   spread: 0.02
-  range: 70
-  reloadTime: 1
+  range: 25
+  reloadTime: 0.7
   timeBetweenShots: 0
-  magazineSize: 25
-  numberOfMags: 10
-  totalAmmoCount: 0
+  magazineSize: 34
+  numberOfMags: 15
+  totalAmmoCount: 510
   bulletsPerTap: 1
-  bulletsLeft: 23
-  bulletsShot: -40
+  bulletsLeft: 13
+  bulletsShot: -129
   bulletImpact: {fileID: 5710498560706377818, guid: 68e1d362713457b4cb9ee746261720e6, type: 3}
   muzzleFlash: {fileID: 2347784888554678354, guid: c668cbbc9212c5648a75a5bd33c87d20, type: 3}
   camShakeMagnitude: 0.1
-  camShakeDuration: 0.1
+  camShakeDuration: 0.05
   shootForce: 0
   upwardForce: 0
   bulletPrefab: {fileID: 0}

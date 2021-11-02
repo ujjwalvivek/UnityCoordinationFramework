@@ -15,21 +15,21 @@ MonoBehaviour:
   weaponName: Primary Mk. I
   allowButtonHold: 0
   damage: 35
-  timeBetweenShooting: 0.05
-  spread: 0.02
-  range: 100
-  reloadTime: 1
+  timeBetweenShooting: 0.5
+  spread: 0.01
+  range: 40
+  reloadTime: 1.2
   timeBetweenShots: 0
-  magazineSize: 5
-  numberOfMags: 3
-  totalAmmoCount: 0
+  magazineSize: 7
+  numberOfMags: 20
+  totalAmmoCount: 139
   bulletsPerTap: 1
-  bulletsLeft: 0
-  bulletsShot: -279
+  bulletsLeft: 6
+  bulletsShot: -290
   bulletImpact: {fileID: 5710498560706377818, guid: 68e1d362713457b4cb9ee746261720e6, type: 3}
   muzzleFlash: {fileID: 2347784888554678354, guid: c668cbbc9212c5648a75a5bd33c87d20, type: 3}
   camShakeMagnitude: 0.1
-  camShakeDuration: 0.1
+  camShakeDuration: 0.05
   shootForce: 0
   upwardForce: 0
   bulletPrefab: {fileID: 0}
