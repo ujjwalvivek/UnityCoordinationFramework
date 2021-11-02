@@ -22,10 +22,12 @@ MonoBehaviour:
   timeBetweenShots: 0
   magazineSize: 7
   numberOfMags: 20
-  totalAmmoCount: 139
+  totalAmmoCount: 140
   bulletsPerTap: 1
-  bulletsLeft: 6
-  bulletsShot: -290
+  bulletsLeft: 7
+  bulletsShot: -376
+  recoil: 3
+  revert: 10
   bulletImpact: {fileID: 5710498560706377818, guid: 68e1d362713457b4cb9ee746261720e6, type: 3}
   muzzleFlash: {fileID: 2347784888554678354, guid: c668cbbc9212c5648a75a5bd33c87d20, type: 3}
   camShakeMagnitude: 0.1

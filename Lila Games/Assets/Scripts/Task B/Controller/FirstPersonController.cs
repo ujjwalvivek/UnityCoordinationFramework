@@ -130,6 +130,8 @@ public class FirstPersonController : MonoBehaviour
 
     float camRotation;
     VisualsUI visuals;
+    float recoil;
+    float revert;
 
     #endregion
 
@@ -213,7 +215,16 @@ public class FirstPersonController : MonoBehaviour
             pitch = Mathf.Clamp(pitch, -maxLookAngle, maxLookAngle);
 
             transform.localEulerAngles = new Vector3(0, yaw, 0);
-            playerCamera.transform.localEulerAngles = new Vector3(pitch, 0, 0);
+            playerCamera.transform.localEulerAngles = new Vector3(pitch + -recoil, 0, 0);
+
+            if (recoil > 0f)
+            {
+                recoil -= Time.deltaTime * revert;
+            }
+            else
+            {
+                recoil = 0f;
+            }
         }
 
         #region Camera Zoom
@@ -439,6 +450,29 @@ public class FirstPersonController : MonoBehaviour
         else
         {
             isGrounded = false;
+        }
+    }
+
+    #endregion
+
+    #region Weapon Recoil
+
+    public void Recoil(float amount, float revertRecoil)
+    {
+        recoil = amount;
+        revert = revertRecoil;
+
+        for (int i = 0; i <= items.Length - 1; i++)
+        {
+            if (items[i].gameObject.activeSelf)
+            {
+                ((WeaponVariables)items[i].weaponData).recoil = amount;
+                ((WeaponVariables)items[i].weaponData).revert = revertRecoil;
+            }
+            else
+            {
+                return;
+            }
         }
     }
 

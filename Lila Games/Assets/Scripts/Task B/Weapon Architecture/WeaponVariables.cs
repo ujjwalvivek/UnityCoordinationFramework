@@ -17,6 +17,10 @@ public class WeaponVariables : WeaponData
     [HideInInspector] public int bulletsLeft;
     [HideInInspector] public int bulletsShot;
 
+    [Header("Weapon Recoil")]
+    public float recoil;
+    public float revert;
+
     [Header("Visual Effects")]
     public ParticleSystem bulletImpact;
     public ParticleSystem muzzleFlash;

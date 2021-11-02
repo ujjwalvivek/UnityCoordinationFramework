@@ -26,6 +26,8 @@ MonoBehaviour:
   bulletsPerTap: 1
   bulletsLeft: 0
   bulletsShot: 1
+  recoil: 15
+  revert: 20
   bulletImpact: {fileID: 3397864867803990050, guid: d040bd5bee676384584512766c50acc3, type: 3}
   muzzleFlash: {fileID: 2347784888554678354, guid: c668cbbc9212c5648a75a5bd33c87d20, type: 3}
   camShakeMagnitude: 0.5
@@ -35,5 +37,5 @@ MonoBehaviour:
   bulletPrefab: {fileID: 4214962557053307647, guid: a9a1a637b4bae974c8116c3e3cd1f8ce, type: 3}
   reloadingIdentifier: {fileID: 2641752968622524993, guid: fa2321cab60de0f4196c8b66f2173174, type: 3}
   shooting: 0
-  readyToShoot: 0
+  readyToShoot: 1
   reloading: 0

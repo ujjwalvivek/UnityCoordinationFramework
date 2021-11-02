@@ -107,6 +107,8 @@ public class HeavyWeapons : Weapons
 
         StartCoroutine(camShake.Shake(((WeaponVariables)weaponData).camShakeDuration, ((WeaponVariables)weaponData).camShakeMagnitude));
 
+        mainCam.transform.root.GetComponent<FirstPersonController>().Recoil(((WeaponVariables)weaponData).recoil, ((WeaponVariables)weaponData).revert);
+
         ((WeaponVariables)weaponData).bulletsLeft--;
         ((WeaponVariables)weaponData).bulletsShot++;
         ((WeaponVariables)weaponData).totalAmmoCount--;
