@@ -71,6 +71,8 @@
     <Compile Include="Assets\Scripts\Task B\Weapon Architecture\HeavyWeapons.cs" />
     <Compile Include="Assets\Scripts\Task B\Weapon Architecture\SingleShotWeapons.cs" />
     <Compile Include="Assets\Scripts\Task B\Weapon Architecture\Weapons.cs" />
+    <Compile Include="Assets\Scripts\Main\SwitchScene.cs" />
+    <Compile Include="Assets\Scripts\Main\ReturnToMain.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
