@@ -1,7 +1,16 @@
 [Ll]ibrary/
 [Tt]emp/
+[Bb]uild_Windows/
 [Oo]bj/
+[Ll]ogs/
+[Dd]ebug/
+[Uu]ser[Ss]ettings/
+[Ss]kybox/
+
+# Unity3D generated files
 Assets/AssetStoreTools*
+Assets/Standard Assets/
+Assets/Plugins/
 
 # Visual Studio cache directory
 .vs/

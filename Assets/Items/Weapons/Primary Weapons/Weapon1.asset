@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 468ad820f975ac346843a560f20d202d, type: 3}
+  m_Name: Weapon1
+  m_EditorClassIdentifier: 
+  weaponName: Primary Mk. I
+  allowButtonHold: 0
+  damage: 35
+  timeBetweenShooting: 0.5
+  spread: 0.01
+  range: 40
+  reloadTime: 1.2
+  timeBetweenShots: 0
+  magazineSize: 7
+  numberOfMags: 20
+  totalAmmoCount: 140
+  bulletsPerTap: 1
+  bulletsLeft: 7
+  bulletsShot: -376
+  recoil: 3
+  revert: 10
+  bulletImpact: {fileID: 5710498560706377818, guid: 68e1d362713457b4cb9ee746261720e6, type: 3}
+  muzzleFlash: {fileID: 2347784888554678354, guid: c668cbbc9212c5648a75a5bd33c87d20, type: 3}
+  camShakeMagnitude: 0.1
+  camShakeDuration: 0.05
+  shootForce: 0
+  upwardForce: 0
+  bulletPrefab: {fileID: 0}
+  reloadingIdentifier: {fileID: 2641752968622524993, guid: fa2321cab60de0f4196c8b66f2173174, type: 3}
+  shooting: 0
+  readyToShoot: 1
+  reloading: 0
