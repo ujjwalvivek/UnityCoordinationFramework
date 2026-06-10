@@ -1,3 +1,4 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+# Add ShaderLab to C#
 *.shader linguist-language=C#
