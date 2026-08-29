@@ -2,3 +2,4 @@
 * text=auto
 # Add ShaderLab to C#
 *.shader linguist-language=C#
+Assets/TextMesh Pro/Shaders/*.cginc linguist-language=C#
